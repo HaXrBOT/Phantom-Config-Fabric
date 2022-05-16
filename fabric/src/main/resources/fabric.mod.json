@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "phantomconfig",
+  "version": "${version}",
+  "name": "Phantom Config",
+  "description": "Make Phantoms Less Annoying!",
+  "authors": [
+    "IAmSneak"
+  ],
+  "contact": {
+  },
+  "license": "MIT",
+  "icon": "assets/phantomconfig/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gmail.sneakdevs.phantomconfigfabric.PhantomConfigFabric"
+    ]
+  },
+  "mixins": [
+    "phantomconfig.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*"
+  }
+}
