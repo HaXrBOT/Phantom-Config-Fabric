@@ -1,4 +1,4 @@
-package com.gmail.sneakdevs.phantomconfigfabric;
+package com.gmail.sneakdevs.phantomconfig;
 
 import com.gmail.sneakdevs.phantomconfig.config.PhantomConfigConfig;
 import me.shedaniel.autoconfig.AutoConfig;

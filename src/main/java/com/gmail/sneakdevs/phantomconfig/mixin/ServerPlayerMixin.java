@@ -14,7 +14,7 @@ public abstract class ServerPlayerMixin implements ServerPlayerInterface {
 
     @Inject(at = @At("HEAD"), method = "tick")
     private void phantomconfig_tickMixin(CallbackInfo ci) {
-        if (PhantomConfigConfig.getInstance().doInsanity && Math.abs(((ServerPlayer)(Object)this).getX()) + Math.abs(((ServerPlayer)(Object)this).getZ()) > 1000 && !((ServerPlayer)(Object)this).getLevel().dimensionType().hasSkyLight() && !((ServerPlayer)(Object)this).getLevel().dimensionType().bedWorks()) {
+        if (PhantomConfigConfig.getInstance().doInsanity && Math.abs(((ServerPlayer)(Object)this).getX()) + Math.abs(((ServerPlayer)(Object)this).getZ()) > 1000 && !((ServerPlayer)(Object)this).serverLevel().dimensionType().hasSkyLight() && !((ServerPlayer)(Object)this).serverLevel().dimensionType().bedWorks()) {
             insanity++;
         }
     }
