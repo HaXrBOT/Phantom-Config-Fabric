@@ -1,0 +1,13 @@
+{
+  "text.autoconfig.phantomconfigfork.option.title":"Phantom Config Fork",
+  "text.autoconfig.phantomconfigfork.option.doInsomnia":"doInsomnia",
+  "text.autoconfig.phantomconfigfork.option.doInsanity":"doInsanity",
+  "text.autoconfig.phantomconfigfork.option.insomniaSpawnStartTimer":"insomniaSpawnStartTimer",
+  "text.autoconfig.phantomconfigfork.option.insanitySpawnStartTimer":"insanitySpawnStartTimer",
+  "text.autoconfig.phantomconfigfork.option.insomniaMinCycleTime":"insomniaMinCycleTime",
+  "text.autoconfig.phantomconfigfork.option.insanityMinCycleTime":"insanityMinCycleTime",
+  "text.autoconfig.phantomconfigfork.option.insomniaRandomizationTime":"insomniaRandomizationTime",
+  "text.autoconfig.phantomconfigfork.option.insanityRandomizationTime":"insanityRandomizationTime",
+  "text.autoconfig.phantomconfigfork.option.insomniaLightStopsPhantoms":"insomniaLightStopsPhantoms",
+  "text.autoconfig.phantomconfigfork.option.insanityLightStopsPhantoms":"insanityLightStopsPhantoms"
+}
