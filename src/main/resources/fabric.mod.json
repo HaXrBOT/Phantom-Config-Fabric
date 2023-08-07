@@ -12,7 +12,7 @@
 	],
 	"contact": {
 	},
-	"license": "MIT",
+	"license": "CC0 1.0",
 	"icon": "assets/phantomconfig/icon.png",
 	"environment": "*",
 	"entrypoints": {
