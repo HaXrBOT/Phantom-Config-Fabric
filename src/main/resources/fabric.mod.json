@@ -1,12 +1,14 @@
 {
 	"schemaVersion": 1,
-	"id": "phantomconfig",
+	"id": "phantomconfigfork",
 	"version": "${version}",
-	"name": "Phantom Config",
-	"description": "Make Phantoms Less Annoying!",
+	"name": "Phantom Config Fork",
+	"description": "Make Phantoms Less Annoying! (An updated fork for Fabric)",
 	"authors": [
-		"IAmSneak",
 		"HaXr"
+	],
+	"contributors": [
+		"IAmSneak - Original Author"
 	],
 	"contact": {
 	},
@@ -26,8 +28,5 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
